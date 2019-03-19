@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic-ext');
+
+/* Start Base styles */
+html, body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background-color: #ffffff;
+}
+
+header, footer{
+	background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+}
+
+
+h1{
+	font-size: 1.875em;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 1.75em;
+}
+
+h3{
+	font-size: 1.25em;
+}
+
+h4{
+	font-size: 1.125em;
+}
+
+h5{
+	font-size: 1em;
+}
+
+h6{
+	font-size: 1em;
+}
+
+p {
+
+}
+
+ul, ol{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+
+}
+
+/* End Base styles */
+/* Start Logotype */
+.logotype{
+	text-align: left;
+}
+
+.logotype img{
+	max-height: 75px;
+	width: auto;
+}
+/* End Logotype */
+/* Start Header&Footer */
+
+
+/* End Header&Footer */
+/* Start Main Menu */
+
+
+/* End Main Menu */
+/* Start Buttons */
+
+
+/* End Buttons */
+/** Start Main page **/
+
+
+/** End Main page **/
+
+/*** Start Media query ***/
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Start SM+MD min-width 576px and max-width: 991px */
+@media (min-width: 576px)  {
+
+
+} /* End SM+MD */
+/* Start LG min-width: 992px and max-width: 1199px */
+@media (min-width: 992px)  {
+
+
+}/* End LG */
+/* Start XL min-width: 1200px */
+@media (min-width: 1200px) {
+
+
+}/* End XL */
+/*** End Media query ***/
