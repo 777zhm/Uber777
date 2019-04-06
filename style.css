@@ -23,6 +23,7 @@ header, footer{
 
 .company_colors{
 	background-color: #FE911A;
+	background-color: #fe9c30;
 	background-color: #F8F8F9;
 	background-color: #D7D7D7;
 	background-color: #4E4B4C;
@@ -102,9 +103,8 @@ header{
 }
 
 footer{
-	height: 100px;
-	padding-top: 22px;
-	padding-bottom: 22px;
+	padding-top: 16px;
+	padding-bottom: 32px;
 }
 
 .contacts_box{
@@ -168,11 +168,64 @@ footer{
 
 /* End Main Menu */
 /* Start Buttons */
-
-.btn_base{
-	
+.btn.focus, .btn:focus {
+	outline: 0;
+	box-shadow: none;
 }
 
+.btn_base {
+	box-sizing: border-box;
+	background-color: inherit;
+	border: 1px solid #fe9c30;
+	border-radius: 5px;
+	cursor: pointer;
+
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+
+	color: #000000;
+
+	padding: 14px 32px;
+	margin-bottom: 10px;
+	max-width: 300px;
+}
+
+.btn_base:hover {
+	background: #fe9c30;
+	color: #FFFFFF;
+}
+
+.btn_base:focus, .btn_filled:focus{
+	outline: none;
+}
+
+.btn_filled {
+	box-sizing: border-box;
+	background-color: #fe9c30;
+	color: #FFFFFF;
+
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+
+	padding: 14px 32px;
+	margin-bottom: 10px;
+	max-width: 300px;
+}
+
+.btn_filled:hover {
+	background-color: #fe9c30;
+	color: #FFFFFF;
+}
 
 /* End Buttons */
 /** Start Main page **/

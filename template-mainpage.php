@@ -85,7 +85,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<h3>Уже есть аккаунт Uber, но хотите сменить партнера? Оставьте заявку с помощью этой кнопки.</h3>
-				<button>Сменить партнера Uber</button>	
+				<button class="btn_base">Сменить партнера Uber</button>	
 			</div>
 		</div>
 	</div>
@@ -100,19 +100,19 @@
 				<img src="<?php assets_url('img/join_1.jpg') ?>" class="img img-fluid" alt="join_1">
 				<h3>На своем авто в Uber</h3>
 				<p>Станьте водителем Uber на своем авто. Зарабатывайте в режиме полной занятости или в свободное время с функцией “по маршруту”.</p>
-				<button>Зарегистрироваться</button>
+				<button class="btn_base">Зарегистрироваться</button>
 			</div>
 			<div class="col-sm-4">
 				<img src="<?php assets_url('img/join_2.jpg') ?>" class="img img-fluid" alt="join_2">
 				<h3>На авто компании в Uber</h3>
 				<p>Станьте водителем Uber на авто компании. Работайте на новых и исправных авто в категориях UberX, UberSelect, UberBlack. <br><br></p>
-				<button>Зарегистрироваться</button>
+				<button class="btn_base">Зарегистрироваться</button>
 			</div>
 			<div class="col-sm-4">
 				<img src="<?php assets_url('img/join_3.jpg') ?>" class="img img-fluid" alt="join_3">
 				<h3>Курьер в UberEats</h3>
 				<p>Станьте курьером в сервисе UberEats. Доставляй еду на своем авто, велосипеде или скутере. Вам не нужны права и опыт работы.</p>
-				<button>Зарегистрироваться</button>
+				<button class="btn_base">Зарегистрироваться</button>
 			</div>
 		</div>
 	</div>
@@ -124,7 +124,7 @@
 				<h2>Запусти свой автопарк в Uber</h2>
 				<p>Получать прибыль имея собственный автопарк в Uber -  легко!
 Ваш стабильный доход от $500 в месяц с авто. Мы создали проверенную бизнес-модель и подготовили пошаговую инструкцию по запуску парка в Uber. Помогаем с подбором водителей, предоставляем ПО для управления автопарком, подключаем к Программе Лояльности Uber-Parnters и сопровождаем Аккаунт менеджером. Узнайте подробнее!</p>
-				<button>Узнать больше</button>	
+				<button class="btn_base">Узнать больше</button>	
 			</div>
 			<div class="col-sm-6">
 				<img src="<?php assets_url('img/avtopark.jpg') ?>" class="img img-fluid" alt="avtopark">
