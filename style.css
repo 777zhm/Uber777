@@ -17,8 +17,20 @@ html, body {
 }
 
 header, footer{
-	background-color: #ffffff;
+	color: #ffffff;
+	background-color: #000000;
 }
+
+.company_colors{
+	background-color: #FE911A;
+	background-color: #F8F8F9;
+	background-color: #D7D7D7;
+	background-color: #4E4B4C;
+	background-color: #2B2735;
+	background-color: #89DAC1;
+	background-color: #5879DA;
+}
+
 
 h1, h2, h3, h4, h5, h6{
 
@@ -59,11 +71,13 @@ ul, ol{
 }
 
 a{
+
 	text-decoration: none;
 }
 
 a:hover{
 
+	text-decoration: none;
 }
 
 /* End Base styles */
@@ -78,19 +92,94 @@ a:hover{
 }
 /* End Logotype */
 /* Start Header&Footer */
+header a, footer a{
+	color: #ffffff;
+}
 
+header{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+footer{
+	height: 100px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+
+.contacts_box{
+	text-align: right;
+}
+
+.contacts_box span{
+	margin-left: 26px;
+}
 
 /* End Header&Footer */
 /* Start Main Menu */
+.main_menu {
+	text-align: right;
+	font-size: 1em;
+}
 
+.main_menu ul {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.main_menu ul li {
+	display: inline-block;
+	margin-left: 26px;
+	font-size: 1em;
+}
+
+.main_menu ul li a {
+	display: inline-block;
+	position: relative;
+	padding: 5px 0 5px;
+	font-size: 1em;
+}
+
+.main_menu ul li a:hover {
+	color: #ffffff;
+}
+
+.main_menu ul li a:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	
+	bottom: 0;
+	left: 0;
+	border-bottom: 1px solid #ffffff;
+	border-radius: 2px;
+
+	width: 0%;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+}
+
+.main_menu ul li a:hover:after {
+	width: 100%;
+}
 
 /* End Main Menu */
 /* Start Buttons */
 
+.btn_base{
+	
+}
+
 
 /* End Buttons */
 /** Start Main page **/
-
+.heroscreen{
+	height: 500px;
+	background-size: cover;
+}
 
 /** End Main page **/
 

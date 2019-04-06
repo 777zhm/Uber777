@@ -19,9 +19,11 @@
 			</div>
 			<div class="main_menu col-lg-9 col-md-8 d-none d-lg-block">
 				<?php wp_nav_menu( array('theme_location' => 'main_menu') ); ?>
-			</div>
-			<div class="lang_menu col-lg-1 col-md-2 col-sm-6 col-6">
-				<?php wp_nav_menu( array('theme_location' => 'lang_menu') ); ?>
+				<div class="contacts_box">
+					<span class="email">info@uber-partners.com.ua</span>
+					<span class="telephone"><a href="tel:+380442288186">(044) 228-81-86</a></span>
+					<span class="telephone"><a href="tel:+380688483041">(068) 848-30-41</a></span>
+				</div>
 			</div>
 		</div>
 	</div>
