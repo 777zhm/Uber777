@@ -4,10 +4,10 @@
 <section class="heroscreen" style="background-image: url(<?php assets_url('img/heroscreen_bg.jpg') ?>);">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-7">
+			<div class="col-sm-8">
 
 			</div>
-			<div class="col-sm-5">
+			<div class="col-sm-4">
 				<form class="contact_form">
 					<div class="form_header">
 						<h4>Подключиться к Uber</h4>
@@ -103,7 +103,7 @@
 			<div class="col-sm-4">
 				<img src="<?php assets_url('img/join_3.jpg') ?>" class="img img-fluid" alt="join_3">
 				<h3 class="block_heading">Курьер в UberEats</h3>
-				<p>Станьте курьером в сервисе UberEats. Доставляй еду на своем авто, велосипеде или скутере. Вам не нужны права и опыт работы.</p>
+				<p>Станьте курьером в сервисе UberEats. Доставляй еду на своем авто, велосипеде или скутере. Вам не нужны права и опыт работы. <br><br></p>
 				<div class="btn_block text-center">
 					<button class="btn_base">Зарегистрироваться</button>
 				</div>
@@ -127,7 +127,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
-				<img src="<?php assets_url('img/avtopark.jpg') ?>" class="img img-fluid" alt="avtopark">
+				<img src="<?php assets_url('img/avtopark_kia.jpg') ?>" class="img img-fluid" alt="avtopark">
 			</div>
 			<div class="col-sm-6">
 				<h2 class="section_heading">Запусти свой автопарк в Uber</h2>

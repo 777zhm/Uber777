@@ -7,11 +7,11 @@ Version: 1.00
 Text Domain: uberpartners
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,600&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,600&subset=cyrillic');
 
 /* Start Base styles */
 html, body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 16px;
 	background-color: #ffffff;
 }
@@ -252,7 +252,7 @@ section.heroscreen{
 .heroscreen .contact_form{
 	margin-top: 16px;
 	background-color: rgba(248, 248, 249, 0.4);
-	border-radius: 12px 12px 0 0;
+	border-radius: 12px;
 	max-width: 340px;
 }
 
