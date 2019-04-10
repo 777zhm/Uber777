@@ -16,12 +16,7 @@ html, body {
 	background-color: #ffffff;
 }
 
-header, footer{
-	color: #ffffff;
-	background-color: #000000;
-}
-
-.company_colors{
+/*.company_colors{
 	background-color: #fe9c30;
 	background-color: #F8F8F9;
 	background-color: #D7D7D7;
@@ -29,13 +24,7 @@ header, footer{
 	background-color: #2B2735;
 	background-color: #89DAC1;
 	background-color: #5879DA;
-}
-
-
-h1, h2, h3, h4, h5, h6{
-
-}
-
+}*/
 
 h1{
 	font-size: 1.875em;
@@ -62,16 +51,11 @@ h6{
 	font-size: 1em;
 }
 
-p {
-
-}
-
 ul, ol{
 	list-style: none;
 }
 
 a{
-
 	text-decoration: none;
 }
 
@@ -80,8 +64,36 @@ a:hover{
 	text-decoration: none;
 }
 
+.section_heading{
+	margin-bottom: 26px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.block_heading{
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-weight: 600;
+	text-align: center;
+}
+
 /* End Base styles */
-/* Start Logotype */
+/* Start Header&Footer */
+
+header{
+	color: #ffffff;
+	background-color: #000000;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+footer{
+	color: #ffffff;
+	background-color: #000000;
+	padding-top: 16px;
+	padding-bottom: 64px;
+}
+
 .logotype{
 	text-align: left;
 }
@@ -90,21 +102,6 @@ a:hover{
 	max-height: 75px;
 	width: auto;
 }
-/* End Logotype */
-/* Start Header&Footer */
-header a, footer a{
-	color: #ffffff;
-}
-
-header{
-	padding-top: 8px;
-	padding-bottom: 8px;
-}
-
-footer{
-	padding-top: 16px;
-	padding-bottom: 64px;
-}
 
 .contacts_box{
 	text-align: right;
@@ -112,6 +109,10 @@ footer{
 
 .contacts_box span{
 	margin-left: 26px;
+}
+
+header a, footer a{
+	color: #ffffff;
 }
 
 /* End Header&Footer */
@@ -167,10 +168,6 @@ footer{
 
 /* End Main Menu */
 /* Start Buttons */
-.btn.focus, .btn:focus {
-	outline: 0;
-	box-shadow: none;
-}
 
 .btn_base {
 	box-sizing: border-box;
@@ -226,22 +223,53 @@ footer{
 	color: #000000;
 }
 
+.modal_button_submit {
+	box-sizing: border-box;
+	background-color: #fe9c30;
+	color: #FFFFFF;
+
+	border: none;
+	border-radius: 0 0 5px 5px;
+	cursor: pointer;
+
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+
+	padding: 14px 32px;
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
+}
+
+.modal_button_submit:hover {
+	background-color: rgba(254, 156, 48, 0.8);
+	color: #000000;
+}
 
 /* End Buttons */
 /** Start Main page **/
-
-.section_heading{
-	margin-bottom: 26px;
-	font-weight: 600;
-	text-align: center;
+section.calltoaction{
+	padding: 40px 0;
+	background-color: #F8F8F9;
 }
 
-.block_heading{
-	margin-top: 16px;
-	margin-bottom: 16px;
-	font-weight: 600;
-	text-align: center;
+section.joinus{
+	padding: 40px 0;
 }
+
+.joinus_item img{
+	border-radius: 5px;
+}
+
+section.avtopark{
+	padding: 40px 0;
+}
+
+
+/* Start heroscreen */
 
 section.heroscreen{
 	background-size: cover;
@@ -264,7 +292,10 @@ section.heroscreen{
 	color: #000000;
 }
 
-.heroscreen .contact_form{
+/* End heroscreen */
+/* Start contact_form_hero  */
+
+.contact_form_hero{
 	background-color: rgba(248, 248, 249, 0.5);
 	border-radius: 5px;
 	max-width: 340px;
@@ -318,16 +349,85 @@ input[type=file]{
 	max-width: 100%;
 }
 
-.contact_form input{
-
+.contact_form_hero input{
 	margin: 2px auto 8px;
 }
 
+/* End contact_form_hero */
+/* Start Modal Form */
+.modal{
+  background-color: rgba(0,0,0,0.15);
+}
+
+.form_modal .modal-dialog{
+	max-width: 340px;
+}
+
+.form_modal .modal-content{
+	background-color: #FFFFFF;
+	color: #62758C;
+
+	border: none;
+	border-radius: 5px;
+}
+
+.form_modal .modal-header{
+	border-bottom: none;
+	border-radius: 5px 5px 0px 0px;
+	background: #fe9c30;
+}
+
+.form_modal .modal-title{
+	color: #ffffff;
+	margin: auto;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+.form_modal .modal-body{
+	padding: 10px 25px 10px 25px;
+}
+
+.form_modal .modal-body input{
+	border: 1px solid #D3DEEC;
+	box-sizing: border-box;
+	border-radius: 5px;
+
+	font-size: 14px;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	color: #A6B9CF;
+	padding-left: 24px;
+	margin-bottom: 12px;
+}
+
+.form_modal .modal-body input[type=file]{
+	border: transparent;
+}
+
+.modal-body label{
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.modal-body label img{
+	padding-left: 8px;
+	height: 26px;
+	width: auto;
+
+}
+
+/* End Modal Form */
+/*** Start Aboutus section ***/
 section.aboutus{
 	padding: 40px 0;
 }
-
-/* Start ribbon */
 
 .aboutus_item {
 	width: 220px;
@@ -352,12 +452,11 @@ section.aboutus{
 	background-color: #fe9c30;
 }
 
-
-
 .aboutus_item_icon{
 	max-height: 54px;
 }
 
+/* Start ribbon */
 .ribbon {
   position: absolute;
   left: -5px; top: -5px;
@@ -434,26 +533,7 @@ section.aboutus{
 .advantages_item:hover {
 	background-color: #fe9c30;
 }
-
-
-section.calltoaction{
-	padding: 40px 0;
-	background-color: #F8F8F9;
-}
-
-section.joinus{
-	padding: 40px 0;
-}
-
-.joinus_item img{
-	border-radius: 5px;
-}
-
-
-section.avtopark{
-	padding: 40px 0;
-}
-
+/*** End Aboutus section ***/
 /** End Main page **/
 
 /*** Start Media query ***/

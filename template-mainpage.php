@@ -10,14 +10,14 @@
 				</div>
 			</div>
 			<div class="col">
-				<form class="contact_form">
+				<form class="contact_form_hero">
 					<div class="form_header">
 						<h4>Подключиться к Uber</h4>
 					</div>
 					<div class="form_body">
-						<input type="text" class="form-control" placeholder="ФИО" name="useredrpou" required>
-						<input type="tel" class="form-control" placeholder="Телефон" name="usertelephone" required>
-						<input type="email" class="form-control" placeholder="E-mail" name="useremail" required>
+						<input type="text" class="form-control" placeholder="ФИО" id="username" name="username" required>
+						<input type="tel" class="form-control" placeholder="Телефон" id="usertel" name="usertel" required>
+						<input type="email" class="form-control" placeholder="E-mail" id="useremail" name="useremail" required>
 						<label for="driverlicense">Права
 							<img src="<?php assets_url('img/upload.png') ?>" />
 							<input type="file" id="driverlicense"  name="driverlicense" />
@@ -112,7 +112,7 @@
 				<h3 class="block_heading">На своем авто в Uber</h3>
 				<p>Станьте водителем Uber на своем авто. Зарабатывайте в режиме полной занятости или в свободное время с функцией “по маршруту”.</p>
 				<div class="btn_block text-center">
-					<button class="btn_base">Зарегистрироваться</button>
+					<button class="btn_base" type="button" data-toggle="modal" data-target="#driverModalRus">Зарегистрироваться</button>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 joinus_item">
@@ -120,7 +120,7 @@
 				<h3 class="block_heading">На авто компании в Uber</h3>
 				<p>Станьте водителем Uber на авто компании. Работайте на новых и исправных авто в категориях UberX, UberSelect, UberBlack. <br><br></p>
 				<div class="btn_block text-center">
-					<button class="btn_base">Зарегистрироваться</button>
+					<button class="btn_base" type="button" data-toggle="modal" data-target="#companyAvtoModalRus">Зарегистрироваться</button>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 joinus_item">
@@ -128,7 +128,7 @@
 				<h3 class="block_heading">Курьер в UberEats</h3>
 				<p>Станьте курьером в сервисе UberEats. Доставляй еду на своем авто, велосипеде или скутере. Вам не нужны права и опыт работы. <br><br></p>
 				<div class="btn_block text-center">
-					<button class="btn_base">Зарегистрироваться</button>
+					<button class="btn_base" type="button" data-toggle="modal" data-target="#eatsModalRus">Зарегистрироваться</button>
 				</div>
 			</div>
 		</div>
@@ -140,7 +140,7 @@
 			<div class="col-sm-12">
 				<h3 class="block_heading">Уже есть аккаунт Uber, но хотите сменить партнера? Оставьте заявку с помощью этой кнопки.</h3>
 				<div class="btn_block text-center">
-					<button class="btn_base">Сменить партнера Uber</button>	
+					<button class="btn_base" type="button" data-toggle="modal" data-target="#changePartnerModalRus">Сменить партнера Uber</button>
 				</div>
 			</div>
 		</div>
@@ -157,10 +157,9 @@
 				<p>Получать прибыль имея собственный автопарк в Uber -  легко!
 Ваш стабильный доход от $500 в месяц с авто. Мы создали проверенную бизнес-модель и подготовили пошаговую инструкцию по запуску парка в Uber. Помогаем с подбором водителей, предоставляем ПО для управления автопарком, подключаем к Программе Лояльности Uber-Parnters и сопровождаем Аккаунт менеджером. Узнайте подробнее!</p>
 				<div class="btn_block text-center">
-					<button class="btn_base">Узнать больше</button>	
+					<button class="btn_base" type="button" data-toggle="modal" data-target="#avtoparkModalRus">Узнать больше</button>
 				</div>
 			</div>
-			
 		</div>
 	</div>
 </section>
