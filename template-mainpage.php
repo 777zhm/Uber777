@@ -4,12 +4,12 @@
 <section class="heroscreen" style="background-image: url(<?php assets_url('img/heroscreen_bg.jpg') ?>);">
 	<div class="container">
 		<div class="row">
-			<div class="col">
+			<div class="col-md-6">
 				<div class="h1_box">
 					<h1>Uber-Partners - Ваш надежный партнер</h1>
 				</div>
 			</div>
-			<div class="col">
+			<div class="col-md-6">
 				<form class="contact_form_hero">
 					<div class="form_header">
 						<h4>Подключиться к Uber</h4>
@@ -46,7 +46,7 @@
 			<div class="col-sm-12">
 				<h2 class="section_heading">Про Uber-Partners</h2>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-6">
 				<div class="aboutus_item">
 					<div class="ribbon"><span>о нас</span></div>
 					<img class="aboutus_item_icon" src="<?php assets_url('img/city.png') ?>" alt="city_icon">
@@ -54,7 +54,7 @@
 					<p>Наши офисы представлены в Киеве, Харькове, Львове и Одессе</p>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-6">
 				<div class="aboutus_item">
 					<div class="ribbon"><span>о нас</span></div>
 					<img class="aboutus_item_icon" src="<?php assets_url('img/driver.png') ?>" alt="driver_icon">
@@ -62,7 +62,7 @@
 					<p>Более 100 водителей выбрали нас</p>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-6">
 				<div class="aboutus_item">
 					<div class="ribbon"><span>о нас</span></div>
 					<img class="aboutus_item_icon" src="<?php assets_url('img/waypoint.png') ?>" alt="waypoint_icon">
@@ -70,7 +70,7 @@
 					<p>500 тыс км совокупно проехали наши водители за 2018 год </p>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-6">
 				<div class="aboutus_item">
 					<div class="ribbon"><span>о нас</span></div>
 					<img class="aboutus_item_icon" src="<?php assets_url('img/money.png') ?>" alt="money_icon">

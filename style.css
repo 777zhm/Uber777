@@ -298,7 +298,7 @@ section.heroscreen{
 .contact_form_hero{
 	background-color: rgba(248, 248, 249, 0.5);
 	border-radius: 5px;
-	max-width: 340px;
+	max-width: 320px;
 	margin-top: 16px;
 	margin-bottom: 16px;
 	float: right;
@@ -335,7 +335,6 @@ section.heroscreen{
 
 input[type=file]{
 	cursor: pointer;
-	/*display: none;*/
 }
 
 .form_footer{
@@ -537,22 +536,37 @@ section.aboutus{
 /** End Main page **/
 
 /*** Start Media query ***/
-/* Extra small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap */
-
-/* Start SM+MD min-width 576px and max-width: 991px */
-@media (min-width: 576px)  {
+/* Start max-width: 992px and min-width: 1199px */
+@media (min-width: 992px) and (max-width: 1199px)  {
 
 
-} /* End SM+MD */
-/* Start LG min-width: 992px and max-width: 1199px */
-@media (min-width: 992px)  {
+}/* End max-width: 992px and min-width: 1199px */
+/* Start max-width: 991px*/
+@media (max-width: 991px)  {
 
 
-}/* End LG */
-/* Start XL min-width: 1200px */
-@media (min-width: 1200px) {
+
+} /* End max-width: 991px*/
+/* Start max-width: 767px */
+@media (max-width: 767px)  {
 
 
-}/* End XL */
+} /* End max-width: 767px*/
+/* Start max-width: 575px */
+@media (max-width: 575px)  {
+
+.contact_form_hero{
+	max-width: 290px;
+	margin: 16px auto;
+}
+
+input[type=file]{
+	display: none;
+}
+
+.heroscreen h1{
+	font-size: 26px;
+}
+
+} /* End max-width: 575px */
 /*** End Media query ***/
