@@ -46,7 +46,7 @@
 			<div class="col-sm-12">
 				<h2 class="section_heading">Про Uber-Partners</h2>
 			</div>
-			<div class="col-md-6">
+			<div class="col-sm-6 col-md-4 col-lg-3">
 				<div class="aboutus_item">
 					<div class="ribbon"><span>о нас</span></div>
 					<img class="aboutus_item_icon" src="<?php assets_url('img/city.png') ?>" alt="city_icon">
@@ -54,7 +54,7 @@
 					<p>Наши офисы представлены в Киеве, Харькове, Львове и Одессе</p>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-sm-6 col-md-4 col-lg-3">
 				<div class="aboutus_item">
 					<div class="ribbon"><span>о нас</span></div>
 					<img class="aboutus_item_icon" src="<?php assets_url('img/driver.png') ?>" alt="driver_icon">
@@ -62,7 +62,7 @@
 					<p>Более 100 водителей выбрали нас</p>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-sm-6 col-md-4 col-lg-3">
 				<div class="aboutus_item">
 					<div class="ribbon"><span>о нас</span></div>
 					<img class="aboutus_item_icon" src="<?php assets_url('img/waypoint.png') ?>" alt="waypoint_icon">
@@ -70,7 +70,7 @@
 					<p>500 тыс км совокупно проехали наши водители за 2018 год </p>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-sm-6 col-md-4 col-lg-3">
 				<div class="aboutus_item">
 					<div class="ribbon"><span>о нас</span></div>
 					<img class="aboutus_item_icon" src="<?php assets_url('img/money.png') ?>" alt="money_icon">
@@ -118,7 +118,7 @@
 			<div class="col-md-4 col-sm-6 joinus_item">
 				<img src="<?php assets_url('img/join_2.jpg') ?>" class="img img-fluid" alt="join_2">
 				<h3 class="block_heading">На авто компании в Uber</h3>
-				<p>Станьте водителем Uber на авто компании. Работайте на новых и исправных авто в категориях UberX, UberSelect, UberBlack. <br><br></p>
+				<p>Станьте водителем Uber на авто компании. Работайте на новых и исправных авто в категориях UberX, UberSelect, UberBlack.</p>
 				<div class="btn_block text-center">
 					<button class="btn_base" type="button" data-toggle="modal" data-target="#companyAvtoModalRus">Зарегистрироваться</button>
 				</div>
@@ -126,7 +126,7 @@
 			<div class="col-md-4 col-sm-6 joinus_item">
 				<img src="<?php assets_url('img/join_3.jpg') ?>" class="img img-fluid" alt="join_3">
 				<h3 class="block_heading">Курьер в UberEats</h3>
-				<p>Станьте курьером в сервисе UberEats. Доставляй еду на своем авто, велосипеде или скутере. Вам не нужны права и опыт работы. <br><br></p>
+				<p>Станьте курьером в сервисе UberEats. Доставляй еду на своем авто, велосипеде или скутере. Вам не нужны права и опыт работы.</p>
 				<div class="btn_block text-center">
 					<button class="btn_base" type="button" data-toggle="modal" data-target="#eatsModalRus">Зарегистрироваться</button>
 				</div>
@@ -150,7 +150,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
-				<img src="<?php assets_url('img/avtopark_kia.jpg') ?>" class="img img-fluid" alt="avtopark">
+				<img class="img img-fluid avtopark_img" src="<?php assets_url('img/avtopark_kia.jpg') ?>"  alt="avtopark">
 			</div>
 			<div class="col-sm-6">
 				<h2 class="section_heading">Запусти свой автопарк в Uber</h2>

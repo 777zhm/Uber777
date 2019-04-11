@@ -103,16 +103,24 @@ footer{
 	width: auto;
 }
 
-.contacts_box{
+header a, footer a{
+	color: #ffffff;
+}
+
+.contacts_header span{
+	margin-left: 22px;
+}
+
+.contacts_row{
 	text-align: right;
 }
 
-.contacts_box span{
-	margin-left: 26px;
+.contacts_row div{
+	margin-bottom: 8px;
 }
 
-header a, footer a{
-	color: #ffffff;
+.contacts_address{
+	text-align: left;
 }
 
 /* End Header&Footer */
@@ -167,6 +175,71 @@ header a, footer a{
 }
 
 /* End Main Menu */
+/* Start Mobile Menu */
+.burger_open_box {
+	text-align: right;
+	font-size: 1em;
+}
+
+.burger_open {
+	position: relative;
+
+	font-size: 26px;
+	cursor: pointer;
+	z-index: 5;
+}
+
+.burger_close {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+
+	font-family: arial;
+	font-size: 50px;
+	color: #f1f1f1;
+	cursor: pointer;
+
+	z-index: 99;
+}
+
+.burger_nav {
+	position: fixed;
+	height: 100%;
+	width: 0;
+	
+	top: 0;
+	left: 0;
+
+	background-color: rgba(0, 0, 0, 0.9);
+	overflow-x: hidden;
+	
+	z-index: 10;
+
+	transition: 0.5s;
+}
+
+.burger_nav ul{
+	text-align: center;
+	padding-left: 0;
+	padding-top: 120px;
+}
+
+.burger_nav ul li{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.burger_nav a{
+	display: block;
+	text-decoration: none;
+	color: #f1f1f1;
+	font-size: 1.5em;
+}
+
+.burger_nav a:hover{
+	color: #29D19A;
+}
+/* End Mobile Menu */
 /* Start Buttons */
 
 .btn_base {
@@ -260,12 +333,22 @@ section.joinus{
 	padding: 40px 0;
 }
 
+.joinus_item{
+	margin-bottom: 26px;
+}
+
 .joinus_item img{
 	border-radius: 5px;
+	display:block; 
+	margin:0 auto;
 }
 
 section.avtopark{
 	padding: 40px 0;
+}
+
+.avtopark_img{
+	margin-bottom: 16px;
 }
 
 
@@ -328,6 +411,7 @@ section.heroscreen{
 
 .form_body label img{
 	padding-left: 8px;
+	padding-right: 16px;
 	height: 26px;
 	width: auto;
 
@@ -417,6 +501,7 @@ input[type=file]{
 
 .modal-body label img{
 	padding-left: 8px;
+	padding-right: 16px;
 	height: 26px;
 	width: auto;
 
@@ -549,6 +634,18 @@ section.aboutus{
 } /* End max-width: 991px*/
 /* Start max-width: 767px */
 @media (max-width: 767px)  {
+
+.contacts_row{
+	text-align: center;
+}
+
+.contacts_address{
+	text-align: center;
+}
+
+.burger_open {
+	font-size: 26px;
+}
 
 
 } /* End max-width: 767px*/
