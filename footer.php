@@ -21,31 +21,14 @@
 
 <!-- Start Modal Form RUS -->
 <div class="modal fade form_modal" id="driverModalRus" tabindex="-1" role="dialog" aria-labelledby="driverModalRus" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
+	<div class="modal-dialog modal-dialog-centered" role="document">		
 		<div class="modal-content">
-			<form class="contact_form_modal">
-				<div class="modal-header">
-					<h4 class="modal-title">Заяка Uber Driver</h4>
-				</div>
-				<div class="modal-body form_body_modal">
-					<input type="text" class="form-control" placeholder="ФИО" id="username" name="username" required>
-					<input type="tel" class="form-control" placeholder="Телефон" id="usertel" name="usertel" required>
-					<input type="email" class="form-control" placeholder="E-mail" id="useremail" name="useremail" required>
-					<label for="driverlicense">Права
-						<img src="<?php assets_url('img/upload.png') ?>" />
-						<input type="file" id="driverlicense"  name="driverlicense" />
-					</label>
-					<label for="techpassport">Техпаспорт
-						<img src="<?php assets_url('img/upload.png') ?>" />
-						<input type="file" id="techpassport"  name="techpassport" />
-					</label>
-					<label for="insurance">Страховка
-						<img src="<?php assets_url('img/upload.png') ?>" />
-						<input type="file" id="insurance"  name="insurance" />
-					</label>
-				</div>
-				<button type="submit" class="modal_button_submit">Зарегистрироваться</button>
-			</form>
+			<div class="modal-header">
+				<h4 class="modal-title">Заявка Uber Driver</h4>
+			</div>
+			<div class="modal-body">
+				<?php echo do_shortcode( '[contact-form-7 id="88" title="form_driver"]' ); ?>
+			</div>
 		</div>
 	</div>
 </div>
@@ -53,21 +36,12 @@
 <div class="modal fade form_modal" id="companyAvtoModalRus" tabindex="-1" role="dialog" aria-labelledby="companyAvtoModalRus" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
-			<form class="contact_form_modal">
-				<div class="modal-header">
-					<h4 class="modal-title">Заяка на авто компании</h4>
-				</div>
-				<div class="modal-body form_body_modal">
-					<input type="text" class="form-control" placeholder="ФИО" id="username" name="username" required>
-					<input type="tel" class="form-control" placeholder="Телефон" id="usertel" name="usertel" required>
-					<input type="email" class="form-control" placeholder="E-mail" id="useremail" name="useremail" required>
-					<label for="driverlicense">Права
-						<img src="<?php assets_url('img/upload.png') ?>" />
-						<input type="file" id="driverlicense"  name="driverlicense" />
-					</label>
-				</div>
-				<button type="submit" class="modal_button_submit">Зарегистрироваться</button>
-			</form>
+			<div class="modal-header">
+				<h4 class="modal-title">Заявка на авто компании</h4>
+			</div>
+			<div class="modal-body">
+				<?php echo do_shortcode( '[contact-form-7 id="87" title="form_company_avto"]' ); ?>
+			</div>
 		</div>
 	</div>
 </div>
@@ -75,41 +49,17 @@
 <div class="modal fade form_modal" id="eatsModalRus" tabindex="-1" role="dialog" aria-labelledby="eatsModalRus" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
-			<form class="contact_form_modal">
-				<div class="modal-header">
-					<h4 class="modal-title">Заяка UberEats</h4>
-				</div>
-				<div class="modal-body form_body_modal">
-					<input type="text" class="form-control" placeholder="ФИО" id="username" name="username" required>
-					<input type="tel" class="form-control" placeholder="Телефон" id="usertel" name="usertel" required>
-					<input type="email" class="form-control" placeholder="E-mail" id="useremail" name="useremail" required>
-				</div>
-				<button type="submit" class="modal_button_submit">Зарегистрироваться</button>
-			</form>
+			<div class="modal-header">
+				<h4 class="modal-title">Заяка UberEats</h4>
+			</div>
+			<div class="modal-body">
+				<?php echo do_shortcode( '[contact-form-7 id="86" title="form_eats"]' ); ?>
+			</div>
 		</div>
 	</div>
 </div>
 
 <div class="modal fade form_modal" id="changePartnerModalRus" tabindex="-1" role="dialog" aria-labelledby="changePartnerModalRus" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-		<div class="modal-content">
-			<form class="contact_form_modal">
-				<div class="modal-header">
-					<h4 class="modal-title">Заяка смена партнера</h4>
-				</div>
-				<div class="modal-body form_body_modal">
-					<input type="text" class="form-control" placeholder="ФИО" id="username" name="username" required>
-					<input type="tel" class="form-control" placeholder="Телефон" id="usertel" name="usertel" required>
-					<input type="email" class="form-control" placeholder="E-mail" id="useremail" name="useremail" required>
-					<input type="text" class="form-control" placeholder="Предыдущий партнер" id="oldpartner" name="oldpartner" required>
-				</div>
-				<button type="submit" class="modal_button_submit">Зарегистрироваться</button>
-			</form>
-		</div>
-	</div>
-</div>
-<!-- Start TEST -->
-<div class="modal fade form_modal" id="changePartnerModalUkr" tabindex="-1" role="dialog" aria-labelledby="changePartnerModalUkr" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -121,27 +71,16 @@
 		</div>
 	</div>
 </div>
-<!-- END TEST -->
-
-
-
-
 
 <div class="modal fade form_modal" id="avtoparkModalRus" tabindex="-1" role="dialog" aria-labelledby="avtoparkModalRus" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
-			<form class="contact_form_modal">
-				<div class="modal-header">
-					<h4 class="modal-title">Заяка для Автопарка</h4>
-				</div>
-				<div class="modal-body form_body_modal">
-					<input type="text" class="form-control" placeholder="ФИО" id="username" name="username" required>
-					<input type="tel" class="form-control" placeholder="Телефон" id="usertel" name="usertel" required>
-					<input type="email" class="form-control" placeholder="E-mail" id="useremail" name="useremail" required>
-					<input type="text" class="form-control" placeholder="Количество машин" id="amountcars" name="amountcars" required>
-				</div>
-				<button type="submit" class="modal_button_submit">Зарегистрироваться</button>
-			</form>
+			<div class="modal-header">
+				<h4 class="modal-title">Заяка для Автопарка</h4>
+			</div>
+			<div class="modal-body">
+				<?php echo do_shortcode( '[contact-form-7 id="85" title="form_avtopark"]' ); ?>
+			</div>
 		</div>
 	</div>
 </div>

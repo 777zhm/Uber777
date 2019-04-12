@@ -10,32 +10,14 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<form class="contact_form_hero" action="form_hero_send.php" method="post">
+				<div class="contact_form_hero">
 					<div class="form_header">
 						<h4>Подключиться к Uber</h4>
 					</div>
 					<div class="form_body">
-						<input type="text" class="form-control" placeholder="ФИО" id="username" name="username" required>
-						<input type="tel" class="form-control" placeholder="Телефон" id="usertel" name="usertel" required>
-						<input type="email" class="form-control" placeholder="E-mail" id="useremail" name="useremail" required>
-						<label for="driverlicense">Права
-							<img src="<?php assets_url('img/upload.png') ?>" />
-							<input type="file" id="driverlicense"  name="driverlicense" />
-						</label>
-						
-						<label for="techpassport">Техпаспорт
-							<img src="<?php assets_url('img/upload.png') ?>" />
-							<input type="file" id="techpassport"  name="techpassport" />
-						</label>
-						
-						<label for="insurance">Страховка
-							<img src="<?php assets_url('img/upload.png') ?>" />
-							<input type="file" id="insurance"  name="insurance" />
-						</label>				
-
+						<?php echo do_shortcode( '[contact-form-7 id="88" title="form_driver"]' ); ?>
 					</div>
-						<button type="submit" class="form_footer btn_filled">Отправить заявку</button>
-				</form>
+				</div>
 			</div>
 		</div>
 	</div>
