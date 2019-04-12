@@ -20,7 +20,7 @@
 </footer>
 
 <!-- Start Modal Form RUS -->
-<div class="modal fade form_modal" id="driverModalRus" tabindex="-1" role="dialog" aria-labelledby="driverModalRus" aria-hidden="true">
+<div class="modal fade" id="driverModalRus" tabindex="-1" role="dialog" aria-labelledby="driverModalRus" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">		
 		<div class="modal-content">
 			<div class="modal-header">
@@ -33,7 +33,7 @@
 	</div>
 </div>
 
-<div class="modal fade form_modal" id="companyAvtoModalRus" tabindex="-1" role="dialog" aria-labelledby="companyAvtoModalRus" aria-hidden="true">
+<div class="modal fade" id="companyAvtoModalRus" tabindex="-1" role="dialog" aria-labelledby="companyAvtoModalRus" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -46,7 +46,7 @@
 	</div>
 </div>
 
-<div class="modal fade form_modal" id="eatsModalRus" tabindex="-1" role="dialog" aria-labelledby="eatsModalRus" aria-hidden="true">
+<div class="modal fade" id="eatsModalRus" tabindex="-1" role="dialog" aria-labelledby="eatsModalRus" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -59,7 +59,7 @@
 	</div>
 </div>
 
-<div class="modal fade form_modal" id="changePartnerModalRus" tabindex="-1" role="dialog" aria-labelledby="changePartnerModalRus" aria-hidden="true">
+<div class="modal fade" id="changePartnerModalRus" tabindex="-1" role="dialog" aria-labelledby="changePartnerModalRus" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -72,7 +72,7 @@
 	</div>
 </div>
 
-<div class="modal fade form_modal" id="avtoparkModalRus" tabindex="-1" role="dialog" aria-labelledby="avtoparkModalRus" aria-hidden="true">
+<div class="modal fade" id="avtoparkModalRus" tabindex="-1" role="dialog" aria-labelledby="avtoparkModalRus" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">

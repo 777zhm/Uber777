@@ -296,33 +296,205 @@ header a, footer a{
 	color: #000000;
 }
 
-.modal_button_submit {
+/* End Buttons */
+/***** Start Forms  *****/
+/* Start form on heroscreen */
+.form_content{
+	background-color: rgba(248, 248, 249, 0.5);
+	border-radius: 5px;
+	margin: 16px auto;
+	max-width: 290px;
+
+}
+
+.form_header{
+	background-color: #fe9c30;	
+	border-radius: 5px 5px 0 0;
+	padding: 12px;
+}
+
+.form_title{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+}
+
+.form_body form{
+	padding-top: 8px;
+	font-size: 16px;
+}
+
+.form_body input[type=text], .form_body input[type=email], .form_body input[type=tel]{
+	border: 1px solid transparent;
+	border-radius: 3px;
+	margin: 8px 16px;
+	padding: 2px 2px 2px 8px;
+	max-width: 258px;
+}
+
+.form_body input[type=file]{
+	cursor: pointer;
+	font-size: 14px;
+	margin-left: 8px;
+	max-width: 258px;
+}
+
+.form_body label{
+	cursor: pointer;
+	padding-left: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.form_body input.btn_form_submit {
 	box-sizing: border-box;
 	background-color: #fe9c30;
-	color: #FFFFFF;
-
 	border: none;
 	border-radius: 0 0 5px 5px;
+	color: #FFFFFF;
 	cursor: pointer;
 
 	font-weight: 600;
 	font-size: 14px;
-	text-align: center;
 	letter-spacing: 0.5px;
+	text-align: center;
 	text-transform: uppercase;
 
-	padding: 14px 32px;
 	height: 100%;
 	width: 100%;
 	max-width: 100%;
+
+	padding: 12px;
+	margin-bottom: 0;
 }
 
-.modal_button_submit:hover {
+.btn_form_submit:hover {
 	background-color: rgba(254, 156, 48, 0.8);
 	color: #000000;
 }
 
-/* End Buttons */
+.form_body div.wpcf7 .ajax-loader{
+	display: none;
+}
+
+.form_body span.wpcf7-not-valid-tip{
+	margin-left: 16px;
+	color: #fe9c30;
+	display: inline;
+}
+
+.form_body div.wpcf7-response-output{
+	margin: 0;
+}
+/* End form on heroscreen */
+/* Start form Modal */
+
+.modal{
+  background-color: rgba(0,0,0,0.15);
+}
+
+.modal-dialog{
+	max-width: 290px;
+	margin: auto;
+}
+
+.modal-content{
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+}
+
+.modal-header{
+	border-bottom: none;
+	border-radius: 5px 5px 0px 0px;
+	background: #fe9c30;
+}
+
+.modal-title{
+	color: #ffffff;
+	margin: auto;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+.modal-body{
+	padding: 8px 0px 0px 0px;
+}
+
+.modal-body input[type=text], .modal-body input[type=email], .modal-body input[type=tel], .modal-body input[type=number]{
+	border: 1px solid #dedede;
+	border-radius: 3px;
+	margin: 8px 16px;
+	padding: 2px 2px 2px 8px;
+	max-width: 258px;
+}
+
+.modal-body input[type=file]{
+	cursor: pointer;
+	font-size: 14px;
+	margin-left: 8px;
+	max-width: 258px;
+}
+
+.modal-body label{
+	cursor: pointer;
+	padding-left: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.modal-body input.btn_form_submit {
+	box-sizing: border-box;
+	background-color: #fe9c30;
+	border: none;
+	border-radius: 0 0 5px 5px;
+	color: #FFFFFF;
+	cursor: pointer;
+
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	text-transform: uppercase;
+
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
+
+	padding: 12px;
+	margin-top: 16px;
+	margin-bottom: 0;
+}
+
+.modal-body .btn_form_submit:hover {
+	background-color: rgba(254, 156, 48, 0.8);
+	color: #000000;
+}
+
+.modal-body form p{
+	margin-bottom: 0;
+}
+
+.modal-body div.wpcf7 .ajax-loader{
+	display: none;
+}
+
+.modal-body span.wpcf7-not-valid-tip{
+	margin-left: 16px;
+	color: #fe9c30;
+	display: inline;
+}
+
+.modal-body div.wpcf7-response-output{
+	margin: 0;
+}
+
+/* End form Modal */
+/***** End Forms *****/
 /** Start Main page **/
 section.calltoaction{
 	padding: 40px 0;
@@ -376,138 +548,7 @@ section.heroscreen{
 }
 
 /* End heroscreen */
-/* Start contact_form_hero  */
 
-.contact_form_hero{
-	background-color: rgba(248, 248, 249, 0.5);
-	border-radius: 5px;
-	max-width: 320px;
-	margin-top: 16px;
-	margin-bottom: 16px;
-	float: right;
-}
-
-.form_header{
-	background-color: #fe9c30;
-	padding: 12px;
-	text-align: center;
-	border-radius: 5px 5px 0 0;
-}
-
-.form_header h4{
-	text-transform: uppercase;
-	font-weight: 600;
-}
-
-.form_body{
-	padding: 12px;
-}
-
-.form_body label{
-	cursor: pointer;
-	padding-left: 12px;
-	font-weight: 600;
-}
-
-.form_body label img{
-	padding-left: 8px;
-	padding-right: 16px;
-	height: 26px;
-	width: auto;
-
-}
-
-input[type=file]{
-	cursor: pointer;
-}
-
-.form_footer{
-	background-color: #fe9c30;
-	padding: 12px 12px 16px 12px;
-	margin-bottom: 0;
-	text-align: center;
-	border-radius: 0 0 5px 5px;
-	height: 100%;
-	width: 100%;
-	max-width: 100%;
-}
-
-.contact_form_hero input{
-	margin: 2px auto 8px;
-}
-
-/* End contact_form_hero */
-/* Start Modal Form */
-.modal{
-  background-color: rgba(0,0,0,0.15);
-}
-
-.form_modal .modal-dialog{
-	max-width: 340px;
-}
-
-.form_modal .modal-content{
-	background-color: #FFFFFF;
-	color: #62758C;
-
-	border: none;
-	border-radius: 5px;
-}
-
-.form_modal .modal-header{
-	border-bottom: none;
-	border-radius: 5px 5px 0px 0px;
-	background: #fe9c30;
-}
-
-.form_modal .modal-title{
-	color: #ffffff;
-	margin: auto;
-	font-weight: bold;
-	line-height: normal;
-	font-size: 14px;
-	text-align: center;
-	letter-spacing: 0.5px;
-	text-transform: uppercase;
-}
-
-.form_modal .modal-body{
-	padding: 10px 25px 10px 25px;
-}
-
-.form_modal .modal-body input{
-	border: 1px solid #D3DEEC;
-	box-sizing: border-box;
-	border-radius: 5px;
-
-	font-size: 14px;
-	font-weight: 500;
-	line-height: normal;
-	font-size: 12px;
-	letter-spacing: 0.5px;
-	color: #A6B9CF;
-	padding-left: 24px;
-	margin-bottom: 12px;
-}
-
-.form_modal .modal-body input[type=file]{
-	border: transparent;
-}
-
-.modal-body label{
-	cursor: pointer;
-	font-weight: 600;
-}
-
-.modal-body label img{
-	padding-left: 8px;
-	padding-right: 16px;
-	height: 26px;
-	width: auto;
-
-}
-
-/* End Modal Form */
 /*** Start Aboutus section ***/
 section.aboutus{
 	padding: 40px 0;
@@ -652,18 +693,6 @@ section.aboutus{
 /* Start max-width: 575px */
 @media (max-width: 575px)  {
 
-.contact_form_hero{
-	max-width: 290px;
-	margin: 16px auto;
-}
-
-input[type=file]{
-	display: none;
-}
-
-.heroscreen h1{
-	font-size: 26px;
-}
 
 } /* End max-width: 575px */
 /*** End Media query ***/
