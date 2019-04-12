@@ -1,7 +1,8 @@
 <?php /* Template Name: Mainpage ukr */ ?>
 <?php get_header(); ?>
 
-<section class="heroscreen" style="background-image: url(<?php assets_url('img/heroscreen_bg.jpg') ?>);">
+<section>
+<div class="heroscreen_section" style="background-image: url(<?php assets_url('img/heroscreen_bg.jpg') ?>);">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -21,8 +22,10 @@
 			</div>
 		</div>
 	</div>
+</div>
 </section>
-<section class="aboutus">
+<section>
+<div class="aboutus_section">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-sm-12">
@@ -82,8 +85,10 @@
 			</div>			
 		</div>
 	</div>
+</div>
 </section>
-<section class="joinus" id="joinus">
+<section>
+<div class="joinus_section" id="joinus">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-sm-12">
@@ -115,8 +120,10 @@
 			</div>
 		</div>
 	</div>
+</div>
 </section>
-<section class="calltoaction">
+<section>
+<div class="calltoaction_section">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -127,8 +134,10 @@
 			</div>
 		</div>
 	</div>
+</div>
 </section>
-<section class="avtopark" id="avtopark">
+<section>
+<div class="avtopark_section" id="avtopark">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
@@ -144,6 +153,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 </section>
 
 <?php get_footer(); ?>

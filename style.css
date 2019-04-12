@@ -13,21 +13,23 @@ Text Domain: uberpartners
 html, body {
 	font-family: 'Exo 2', sans-serif;
 	font-size: 16px;
-	background-color: #ffffff;
+	background-color: #F8F8F9;
+	color: #222021;
 }
 
 /*.company_colors{
 	background-color: #fe9c30;
-	background-color: #F8F8F9;
+	background-color: #fe7a30;
+	background-color: #F8F8F9; background-color: rgb(248, 248, 249);
 	background-color: #D7D7D7;
 	background-color: #4E4B4C;
 	background-color: #2B2735;
-	background-color: #89DAC1;
-	background-color: #5879DA;
+	background-color: #222021; background-color: rgb(34,32,33);
 }*/
 
 h1{
 	font-size: 1.875em;
+	font-weight: 600;
 	text-transform: uppercase;
 }
 
@@ -64,6 +66,11 @@ a:hover{
 	text-decoration: none;
 }
 
+input::placeholder {
+  color: #222021;
+  font-size: 14px;
+}
+
 .section_heading{
 	margin-bottom: 26px;
 	font-weight: 600;
@@ -81,15 +88,15 @@ a:hover{
 /* Start Header&Footer */
 
 header{
-	color: #ffffff;
-	background-color: #000000;
+	color: #F8F8F9;
+	background-color: #222021;
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
 
 footer{
-	color: #ffffff;
-	background-color: #000000;
+	color: #F8F8F9;
+	background-color: #222021;
 	padding-top: 16px;
 	padding-bottom: 64px;
 }
@@ -104,7 +111,7 @@ footer{
 }
 
 header a, footer a{
-	color: #ffffff;
+	color: #F8F8F9;
 }
 
 .contacts_header span{
@@ -196,7 +203,7 @@ header a, footer a{
 
 	font-family: arial;
 	font-size: 50px;
-	color: #f1f1f1;
+	color: #F8F8F9;
 	cursor: pointer;
 
 	z-index: 99;
@@ -210,7 +217,7 @@ header a, footer a{
 	top: 0;
 	left: 0;
 
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(34, 32, 33, 0.9);
 	overflow-x: hidden;
 	
 	z-index: 10;
@@ -232,12 +239,12 @@ header a, footer a{
 .burger_nav a{
 	display: block;
 	text-decoration: none;
-	color: #f1f1f1;
+	color: #F8F8F9;
 	font-size: 1.5em;
 }
 
 .burger_nav a:hover{
-	color: #29D19A;
+	color: #fe9c30;
 }
 /* End Mobile Menu */
 /* Start Buttons */
@@ -255,7 +262,7 @@ header a, footer a{
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
 
-	color: #000000;
+	color: #222021;
 
 	padding: 14px 32px;
 	margin-bottom: 10px;
@@ -264,7 +271,7 @@ header a, footer a{
 
 .btn_base:hover {
 	background: #fe9c30;
-	color: #FFFFFF;
+	color: #F8F8F9;
 }
 
 .btn_base:focus, .btn_filled:focus{
@@ -274,7 +281,7 @@ header a, footer a{
 .btn_filled {
 	box-sizing: border-box;
 	background-color: #fe9c30;
-	color: #FFFFFF;
+	color: #F8F8F9;
 
 	border: none;
 	border-radius: 5px;
@@ -292,8 +299,8 @@ header a, footer a{
 }
 
 .btn_filled:hover {
-	background-color: #FFFFFF;
-	color: #000000;
+	background-color: #F8F8F9;
+	color: #222021;
 }
 
 /* End Buttons */
@@ -304,7 +311,6 @@ header a, footer a{
 	border-radius: 5px;
 	margin: 16px auto;
 	max-width: 290px;
-
 }
 
 .form_header{
@@ -322,10 +328,11 @@ header a, footer a{
 .form_body form{
 	padding-top: 8px;
 	font-size: 16px;
+
 }
 
 .form_body input[type=text], .form_body input[type=email], .form_body input[type=tel]{
-	border: 1px solid transparent;
+	border: 1px solid #dedede;
 	border-radius: 3px;
 	margin: 8px 16px;
 	padding: 2px 2px 2px 8px;
@@ -351,7 +358,7 @@ header a, footer a{
 	background-color: #fe9c30;
 	border: none;
 	border-radius: 0 0 5px 5px;
-	color: #FFFFFF;
+	color: #222021;
 	cursor: pointer;
 
 	font-weight: 600;
@@ -368,9 +375,9 @@ header a, footer a{
 	margin-bottom: 0;
 }
 
-.btn_form_submit:hover {
+.form_body input.btn_form_submit:hover {
 	background-color: rgba(254, 156, 48, 0.8);
-	color: #000000;
+	color: #F8F8F9;
 }
 
 .form_body div.wpcf7 .ajax-loader{
@@ -390,7 +397,7 @@ header a, footer a{
 /* Start form Modal */
 
 .modal{
-  background-color: rgba(0,0,0,0.15);
+  background-color: rgba(34, 32, 33, 0.15);
 }
 
 .modal-dialog{
@@ -399,7 +406,7 @@ header a, footer a{
 }
 
 .modal-content{
-	background-color: #FFFFFF;
+	background-color: #F8F8F9;
 	border: none;
 	border-radius: 5px;
 }
@@ -411,7 +418,7 @@ header a, footer a{
 }
 
 .modal-title{
-	color: #ffffff;
+	color: #F8F8F9;
 	margin: auto;
 	font-weight: bold;
 	line-height: normal;
@@ -452,7 +459,7 @@ header a, footer a{
 	background-color: #fe9c30;
 	border: none;
 	border-radius: 0 0 5px 5px;
-	color: #FFFFFF;
+	color: #F8F8F9;
 	cursor: pointer;
 
 	font-weight: 600;
@@ -472,7 +479,7 @@ header a, footer a{
 
 .modal-body .btn_form_submit:hover {
 	background-color: rgba(254, 156, 48, 0.8);
-	color: #000000;
+	color: #222021;
 }
 
 .modal-body form p{
@@ -496,12 +503,12 @@ header a, footer a{
 /* End form Modal */
 /***** End Forms *****/
 /** Start Main page **/
-section.calltoaction{
+.calltoaction_section{
 	padding: 40px 0;
 	background-color: #F8F8F9;
 }
 
-section.joinus{
+.joinus_section{
 	padding: 40px 0;
 }
 
@@ -515,7 +522,7 @@ section.joinus{
 	margin:0 auto;
 }
 
-section.avtopark{
+.avtopark_section{
 	padding: 40px 0;
 }
 
@@ -523,34 +530,24 @@ section.avtopark{
 	margin-bottom: 16px;
 }
 
-
 /* Start heroscreen */
-
-section.heroscreen{
+.heroscreen_section{
 	background-size: cover;
 	background-position: center;
 }
 
 .h1_box{
-	max-width: 460px;
+	max-width: 360px;
 	border-radius: 5px;
 	padding: 8px;
 	margin-top: 72px;
-	background-color: rgba(248, 248, 249, 0.5);
-}
-
-.heroscreen h1{
-	font-size: 36px;
-	font-weight: 600;
-	text-transform: uppercase;
+	background-color: rgba(34, 32, 33, 0.8);
+	color: #F8F8F9;
 	text-align: center;
-	color: #000000;
 }
-
 /* End heroscreen */
-
 /*** Start Aboutus section ***/
-section.aboutus{
+.aboutus_section{
 	padding: 40px 0;
 }
 
@@ -593,7 +590,7 @@ section.aboutus{
 .ribbon span {
   font-size: 10px;
   font-weight: bold;
-  color: #FFF;
+  color: #F8F8F9;
   text-transform: uppercase;
   text-align: center;
   line-height: 20px;
@@ -601,9 +598,9 @@ section.aboutus{
   -webkit-transform: rotate(-45deg);
   width: 100px;
   display: block;
-  background: #79A70A;
-  background: linear-gradient(#FE9C30 0%, #FE9C30 100%);
-  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  background: #FE9C30;
+  background: linear-gradient(#fe7a30 0%, #FE9C30 100%);
+  box-shadow: 0 3px 10px -5px #222021;
   position: absolute;
   top: 19px; left: -21px;
 }
@@ -649,7 +646,6 @@ section.aboutus{
 	background-color: #F8F8F9;
 	border: 1px solid #F1F1F1;
 	box-shadow: 0px 0px 4px #E9E9E9;
-
 
 	-webkit-transition: all 0.9s; /* For Safari 3.1 to 6.0 */
   	transition: all 0.9s;
