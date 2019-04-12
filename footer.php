@@ -108,6 +108,24 @@
 		</div>
 	</div>
 </div>
+<!-- Start TEST -->
+<div class="modal fade form_modal" id="changePartnerModalUkr" tabindex="-1" role="dialog" aria-labelledby="changePartnerModalUkr" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Заяка смена партнера</h4>
+			</div>
+			<div class="modal-body">
+				<?php echo do_shortcode( '[contact-form-7 id="83" title="form_change_partner"]' ); ?>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END TEST -->
+
+
+
+
 
 <div class="modal fade form_modal" id="avtoparkModalRus" tabindex="-1" role="dialog" aria-labelledby="avtoparkModalRus" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
