@@ -8,35 +8,55 @@ function my_acf_init() {
     if( function_exists('acf_register_block') ) {
         // register blocks
         acf_register_block(array(
-            'name'              => 'calltoaction',
-            'title'             => __('Calltoaction uberpartners'),
-            'description'       => __('A custom calltoaction block.'),
-            'render_callback'   => 'custom_block_render_callback',
-            'category'          => 'formatting',
-            'icon'              => 'editor-contract',
-            'keywords'          => array( 'calltoaction' ),
-        ));
-
-        acf_register_block(array(
             'name'              => 'mainscreen',
-            'title'             => __('Mainscreen uberpartners'),
+            'title'             => __('Mainscreen'),
             'description'       => __('A custom mainscreen block.'),
             'render_callback'   => 'custom_block_render_callback',
             'category'          => 'formatting',
-            'icon'              => 'admin-home',
-            'keywords'          => array( 'mainscreen' ),
+            'icon'              => 'format-image',
+            'keywords'          => array( 'mainscreen, 777zhm' ),
         ));
 
         acf_register_block(array(
-            'name'              => 'partners',
-            'title'             => __('Partners uberpartners'),
-            'description'       => __('A custom partners block.'),
+            'name'              => 'aboutus',
+            'title'             => __('About us'),
+            'description'       => __('A custom about us block.'),
             'render_callback'   => 'custom_block_render_callback',
             'category'          => 'formatting',
-            'icon'              => 'admin-site',
-            'keywords'          => array( 'partners', 'logo' ),
+            'icon'              => 'admin-page',
+            'keywords'          => array( 'contactus, 777zhm' ),
         ));
-   
+
+        acf_register_block(array(
+            'name'              => 'joinus',
+            'title'             => __('Join us'),
+            'description'       => __('A custom join us block.'),
+            'render_callback'   => 'custom_block_render_callback',
+            'category'          => 'formatting',
+            'icon'              => 'groups',
+            'keywords'          => array( 'joinus, 777zhm' ),
+        ));
+
+        acf_register_block(array(
+            'name'              => 'calltoaction',
+            'title'             => __('Calltoaction'),
+            'description'       => __('A custom call to action block.'),
+            'render_callback'   => 'custom_block_render_callback',
+            'category'          => 'formatting',
+            'icon'              => 'warning',
+            'keywords'          => array( 'calltoaction, 777zhm' ),
+        ));
+
+        acf_register_block(array(
+            'name'              => 'avtopark',
+            'title'             => __('Avtopark'),
+            'description'       => __('A custom avtopark block.'),
+            'render_callback'   => 'custom_block_render_callback',
+            'category'          => 'formatting',
+            'icon'              => 'align-left',
+            'keywords'          => array( 'avtopark, 777zhm' ),
+        ));
+
     }
 }
 
