@@ -4,16 +4,32 @@
 	<div class="container">
 		<div class="row contacts_row">
 			<div class="col-lg-4 col-md-6 contacts_address">
-				<span><a target="_blank" href="https://goo.gl/maps/PUx4ctJhM1k">г.Киев, ул.Княжий затон, 9а</a></span>
+				<?php 
+
+				$link = get_field('admin_address_link', 'theme_settings');
+
+				if( $link ): 
+					$link_url = $link['url'];
+					$link_title = $link['title'];
+					$link_target = $link['target'] ? $link['target'] : '_self';
+					?>
+				<span><a class="button" href="<?php echo esc_url($link_url); ?>" target="<?php echo esc_attr($link_target); ?>"><?php echo esc_html($link_title); ?></a></span>
+				<?php endif; ?>
+	
 			</div>
 			<div class="col-lg-4 col-md-6 contacts_email">
-				<span>info@uber-partners.com.ua</span>
+				<span><?php the_field('admin_email', 'theme_settings'); ?></span>
 			</div>
 			<div class="col-lg-2 col-md-12  contacts_telephone">
-				<span><a href="tel:+380442288186">(044) 228-81-86</a></span>
+				<span><a href="tel:<?php the_field('admin_tel_1', 'theme_settings'); ?>"><?php the_field('admin_tel_1', 'theme_settings'); ?></a></span>
 			</div>
 			<div class="col-lg-2 col-md-12  contacts_telephone">
-				<span><a href="tel:+380688483041">(068) 848-30-41</a></span>
+				<span><a href="tel:<?php the_field('admin_tel_2', 'theme_settings'); ?>"><?php the_field('admin_tel_2', 'theme_settings'); ?></a></span>
+			</div>
+		</div>
+		<div class="row copyright_row">
+			<div class="col-12 text-center">
+				<p class="copyright_p">Developed by <a href="https://zhmurko.com.ua" target="_blank">Zhmurko.com.ua</a></p>
 			</div>
 		</div>
 	</div>

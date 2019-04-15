@@ -98,7 +98,7 @@ footer{
 	color: #F8F8F9;
 	background-color: #222021;
 	padding-top: 16px;
-	padding-bottom: 64px;
+	padding-bottom: 8px;
 }
 
 .logotype{
@@ -130,6 +130,15 @@ header a, footer a{
 	text-align: left;
 }
 
+.copyright_row{
+	margin-top: 24px;
+	margin-bottom: 8px;
+}
+
+.copyright_p{
+	margin-bottom: 4px;
+	font-size: 12px;
+}
 /* End Header&Footer */
 /* Start Main Menu */
 .main_menu {
