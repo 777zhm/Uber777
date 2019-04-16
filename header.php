@@ -21,9 +21,9 @@
 				<?php wp_nav_menu( array('theme_location' => 'main_menu') ); ?>
 				<div class="row">
 					<div class="col-lg-12 contacts_header">
-						<span>info@uber-partners.com.ua</span>
-						<span><a href="tel:+380442288186">(044) 228-81-86</a></span>
-						<span><a href="tel:+380688483041">(068) 848-30-41</a></span>
+						<span><?php the_field('admin_email', 'theme_settings'); ?></span>
+						<span><a href="tel:<?php the_field('admin_tel_1', 'theme_settings'); ?>"><?php the_field('admin_tel_1', 'theme_settings'); ?></a></span>
+						<span><a href="tel:<?php the_field('admin_tel_2', 'theme_settings'); ?>"><?php the_field('admin_tel_2', 'theme_settings'); ?></a></span>
 					</div>
 				</div>
 			</div>
