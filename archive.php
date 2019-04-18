@@ -2,16 +2,7 @@
 
 <section>
 	<div class="blog_section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12">
-					<div class="text-center">
-						<h2 class="section_heading"><?php the_archive_title(); ?></h2>
-						<p class="section_subheading"><?php the_archive_description(); ?></p>
-						<div class="title_dot"></div>
-					</div>
-				</div>
-			</div>
+		<div class="container">
 			<div class="row blog_block">
 				<?php
 				$args = array( 'posts_per_page' => 4, );
@@ -27,7 +18,7 @@
 							<div class="blog_item_text_box">
 								<?php the_excerpt(); ?>
 							</div>
-							<a href="<?php the_permalink(); ?>">Read More &gt;&gt;</a>
+							<a href="<?php the_permalink(); ?>">Детальніше &gt;&gt;</a>
 						</div>
 					</div>
 				<?php endwhile; else: ?>

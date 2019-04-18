@@ -665,6 +665,25 @@ header a, footer a{
 }
 /*** End Aboutus section ***/
 /** End Main page **/
+/** Start Post page **/
+.post_heading{
+	margin-top: 36px;
+	margin-bottom: 12px;
+	font-weight: 600;
+}
+
+.post_page ul{
+	list-style: circle;
+}
+
+.post_page h3, .post_page h4{
+	font-weight: 600;
+}
+
+.post_img_box{
+	padding-bottom: 36px;
+}
+/** End Post page **/
 
 /*** Start Media query ***/
 /* Start max-width: 992px and min-width: 1199px */
