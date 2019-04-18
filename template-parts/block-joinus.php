@@ -34,7 +34,7 @@
 	</div>
 </section>
 
-<!-- Start Modal Form RUS -->
+<!-- Start Modal Forms -->
 <div class="modal fade" id="driverModal" tabindex="-1" role="dialog" aria-labelledby="driverModal" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">		
 		<div class="modal-content">
@@ -86,4 +86,4 @@
 	</div>
 </div>
 
-<!-- End Modal Form RUS -->
+<!-- End Modal Forms -->
